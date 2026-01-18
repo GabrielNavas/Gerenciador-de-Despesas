@@ -1,0 +1,4 @@
+com\despesas\Application.class
+com\despesas\entity\Despesa.class
+com\despesas\repository\DespesaRepository.class
+com\despesas\controller\DespesaController.class
