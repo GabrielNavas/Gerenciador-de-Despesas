@@ -1,4 +1,4 @@
-## 📁 O que tem dentro?
+## O que tem dentro?
 
 ```
 src/main/java/com/despesas/
@@ -15,29 +15,29 @@ src/main/resources/
 ├── templates/despesas/
 │   └── lista.html             ← Página que você vê no navegador
 └── static/css/
-    └── style.css              ← Estilos bonitos 🎨
+    └── style.css              
 ```
 
-## 🔧 Stack Tecnológico
+## Stack Tecnológico
 
-- **Java 17** ☕
-- **Spring Boot 3** 🚀
-- **Spring Data JPA** 📊
+- **Java 17** 
+- **Spring Boot 3** 
+- **Spring Data JPA** 
 - **H2 Database** (em memória)
 - **Thymeleaf** (Template HTML)
 - **Maven** (Gerenciador de dependências)
 - **Lombok** (Reduz boilerplate)
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
-✅ **Listar** todas as despesas  
-✅ **Criar** nova despesa com validação  
-✅ **Deletar** despesa  
-✅ **Soma Total** de despesas  
-✅ **Categorias** predefinidas  
-✅ **Validação** de dados (valor > 0)
+ **Listar** todas as despesas  
+ **Criar** nova despesa com validação  
+ **Deletar** despesa  
+ **Soma Total** de despesas  
+ **Categorias** predefinidas  
+ **Validação** de dados (valor > 0)
 
-## 🚀 Como Usar (Rápido)
+##  Como Usar (Rápido)
 
 ### 1. Instalar o necessário
 - Baixe e instale **Java 17+**: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
@@ -54,9 +54,8 @@ mvn spring-boot:run
 http://localhost:8081/despesas
 ```
 
-Pronto! 🎉 Você tem um app de despesas funcionando!
 
-## � O que cada arquivo faz?
+## O que cada arquivo faz?
 
 ### **Despesa.java** (Modelo)
 Define como uma despesa é armazenada:
@@ -86,17 +85,17 @@ A página que você vê no navegador com:
 
 ---
 
-## 🎯 O que você pode fazer?
+## O que você pode fazer?
 
-✅ Adicionar uma despesa (descrição, valor, data, categoria)  
-✅ Ver todas as despesas em uma tabela  
-✅ Ver o **total gasto** automaticamente calculado  
-✅ Deletar uma despesa  
-✅ Refrescar a página - os dados continuam lá!
+ Adicionar uma despesa (descrição, valor, data, categoria)  
+ Ver todas as despesas em uma tabela  
+ Ver o **total gasto** automaticamente calculado  
+ Deletar uma despesa  
+ Refrescar a página - os dados continuam lá!
 
 ---
 
-## 🐛 Se der erro...
+## Se der erro...
 
 **Erro: "Porta 8081 já está em uso"**
 - Mude a porta em: `src/main/resources/application.properties`
